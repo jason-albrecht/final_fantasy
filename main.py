@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 826dcc5 (arena: add Arena and props, add gitignore)
+=======
+>>>>>>> d0cc235 (make arena an object)
 from objects.Battle import Battle
 from objects.Character import Character
 from objects.Alignment import Alignment
@@ -35,6 +38,7 @@ def main():
 
 
 if __name__ == '__main__':
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -71,4 +75,6 @@ if __name__ == '__main__':
 =======
 >>>>>>> cf67462 (arena: add Arena and props, add gitignore)
 >>>>>>> 826dcc5 (arena: add Arena and props, add gitignore)
+=======
+>>>>>>> d0cc235 (make arena an object)
     main()
