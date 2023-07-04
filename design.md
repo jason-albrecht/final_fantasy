@@ -1,52 +1,57 @@
-language?
-    python
-    c#
-    c++
-    javascript
-        react
-        angular 
+# DESIGN
 
-v1: console app
+## Language?
 
-visualize in console?
-    redraw screen after events?
-        redraw()
-            after each turn
-    classic rectangles
-        1/3rd allies (right)
-        2/3rds enemies (left, middle)
-    formation
-        front, back
-        rows (4)
+    * python
+    * c#
+    * c++
+    * javascript
+      * react
+      * angular 
 
+## v1: Console App
 
-characters
-    properties
-        hp
-        mp
-        speed
-        sprite
-        stagger gauge
-            phases
-                buildup
-                    gauge fills up
-                staggered
-                    notification: STAGGER!
-                    gauge depletes
-                    timer
-                    reset ATB to zero; pause
-commands
-    properties
-        close range, long range
-        resource
-            mp
-                amount
-            none (physical)
+    * visualize in console?
+      * redraw screen after events?
+      * 2 teams: enemies on left, allies on right
+      * redraw()
+        * after each turn
+      * classic rectangles
+        * 1/3rd allies (right)
+        * 2/3rds enemies (left, middle)
+      * formation
+        * front, back
+        * 4 rows
 
 
+## Characters
 
-2 teams: enemies on left, allies on right
-ATB system
-    time
-        what library
-    during action: active or pause?
+    * properties
+      * hp
+      * mp
+      * speed
+      * sprite
+      * stagger gauge
+        * phases
+          * buildup
+            * gauge fills up
+          * staggered
+            * notification: STAGGER!
+            * gauge depletes
+              * timer
+              * reset ATB to zero; pause
+
+## Commands
+
+    * properties
+      * close range, long range
+      * resource
+        * mp
+          * amount
+          * none (physical)
+
+## ATB System
+
+    * time
+      * what library
+    * During action: active or pause?
