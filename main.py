@@ -1,5 +1,9 @@
+from objects.Arena import Arena
+
+entities: list = []
+
 def main():
-    pass
+    arena = Arena(entities)
 
 
 if __name__ == '__main__':
