@@ -10,6 +10,8 @@ v1: console app
 
 visualize in console?
     redraw screen after events?
+        redraw()
+            after each turn
     classic rectangles
         1/3rd allies (right)
         2/3rds enemies (left, middle)
