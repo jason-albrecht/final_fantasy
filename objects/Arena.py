@@ -1,9 +1,13 @@
 from dataclasses import dataclass
+from typing import Any
 
 @dataclass
-class Arena:
+class Arena(object):
     def __init__(self, entities: list) -> None:
         self._entities = entities
+
+    def __call__(self) -> Any:
+        print('called Arena')
 
     def _get_entities(self):
         print("Get entities")
