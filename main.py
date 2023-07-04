@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 826dcc5 (arena: add Arena and props, add gitignore)
 from objects.Battle import Battle
 from objects.Character import Character
 from objects.Alignment import Alignment
@@ -33,17 +36,24 @@ def main():
 
 if __name__ == '__main__':
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 826dcc5 (arena: add Arena and props, add gitignore)
 from objects.Arena import Arena
 
 entities: list = []
 
+<<<<<<< HEAD
 >>>>>>> cf67462 (arena: add Arena and props, add gitignore)
+=======
+>>>>>>> 826dcc5 (arena: add Arena and props, add gitignore)
 def main():
     arena = Arena(entities)
 
 
 if __name__ == '__main__':
+<<<<<<< HEAD
 >>>>>>> 91fc40b (arena: create main.py and Arena class)
 =======
     enemy = Character()
@@ -58,4 +68,7 @@ if __name__ == '__main__':
 
 if __name__ == '__main__':
 >>>>>>> 5ffa0be (add battle start messages)
+=======
+>>>>>>> cf67462 (arena: add Arena and props, add gitignore)
+>>>>>>> 826dcc5 (arena: add Arena and props, add gitignore)
     main()
