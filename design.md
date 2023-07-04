@@ -4,7 +4,7 @@ language?
     c++
     javascript
         react
-        angular
+        angular 
 
 v1: console app
 
