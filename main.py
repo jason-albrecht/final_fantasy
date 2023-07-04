@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from objects.Battle import Battle
 from objects.Character import Character
 from objects.Alignment import Alignment
@@ -20,4 +21,11 @@ def main():
 
 
 if __name__ == '__main__':
+=======
+def main():
+    pass
+
+
+if __name__ == '__main__':
+>>>>>>> 91fc40b (arena: create main.py and Arena class)
     main()
