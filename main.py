@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from objects.Battle import Battle
 from objects.Character import Character
 from objects.Alignment import Alignment
@@ -26,4 +27,15 @@ def main():
     battle = Battle(entities)
 
 if __name__ == '__main__':
+=======
+from objects.Arena import Arena
+
+entities: list = []
+
+def main():
+    arena = Arena(entities)
+
+
+if __name__ == '__main__':
+>>>>>>> cf67462 (arena: add Arena and props, add gitignore)
     main()
