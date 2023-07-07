@@ -10,6 +10,7 @@
 from objects.Battle import Battle
 from objects.Character import Character
 <<<<<<< HEAD
+<<<<<<< HEAD
 from objects.Alignment import Alignment
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,7 +23,13 @@ from objects.Character import Character
 =======
 =======
 >>>>>>> 5ffa0be (add battle start messages)
+<<<<<<< HEAD
 >>>>>>> bc66dd4 (add battle start messages)
+=======
+=======
+from objects.Alignment import Alignment
+>>>>>>> 26062a9 (Create battle object, add battle messaging)
+>>>>>>> 5f81cdc (Create battle object, add battle messaging)
 
 entities: list = []
 
@@ -36,8 +43,11 @@ def main():
     # #TODO create an enemy
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bc66dd4 (add battle start messages)
+=======
+>>>>>>> 5f81cdc (Create battle object, add battle messaging)
 <<<<<<< HEAD
     enemy = Character('Demon', 20, 5, alignment=2)
     entities.append(enemy)
@@ -51,6 +61,13 @@ def main():
     #TODO start a battle with character vs. enemy
     battle = Battle(entities)
 >>>>>>> 5ffa0be (add battle start messages)
+=======
+    enemy = Character('Demon', 20, 5, alignment=2)
+    entities.append(enemy)
+
+    #TODO start a battle with character vs. enemy
+    battle = Battle()
+>>>>>>> 26062a9 (Create battle object, add battle messaging)
 
 
 if __name__ == '__main__':
