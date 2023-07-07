@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from objects.Battle import Battle
 from objects.Character import Character
 from objects.Alignment import Alignment
@@ -16,11 +15,7 @@ def main():
     # #TODO test that eplicit alignment works
 
     # #TODO create an enemy
-    enemy = Character('Demon', 20, 5, 2)
-    entities.append(enemy)
-
-    #TODO start a battle with character vs. enemy
-    enemy = Character('Demon', 20, 5, alignment=2)
+    enemy = Character()
     entities.append(enemy)
 
     #TODO start a battle with character vs. enemy
