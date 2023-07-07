@@ -9,7 +9,9 @@
 >>>>>>> d0cc235 (make arena an object)
 from objects.Battle import Battle
 from objects.Character import Character
+<<<<<<< HEAD
 from objects.Alignment import Alignment
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 from objects.Battle import Battle
@@ -17,6 +19,10 @@ from objects.Character import Character
 >>>>>>> 5ffa0be (add battle start messages)
 =======
 >>>>>>> 26062a9 (Create battle object, add battle messaging)
+=======
+=======
+>>>>>>> 5ffa0be (add battle start messages)
+>>>>>>> bc66dd4 (add battle start messages)
 
 entities: list = []
 
@@ -30,11 +36,21 @@ def main():
     # #TODO create an enemy
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> bc66dd4 (add battle start messages)
+<<<<<<< HEAD
     enemy = Character('Demon', 20, 5, alignment=2)
     entities.append(enemy)
 
     #TODO start a battle with character vs. enemy
     battle = Battle()
+=======
+    enemy = Character()
+    entities.append(enemy)
+
+    #TODO start a battle with character vs. enemy
+    battle = Battle(entities)
+>>>>>>> 5ffa0be (add battle start messages)
 
 
 if __name__ == '__main__':
