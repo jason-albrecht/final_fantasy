@@ -1,8 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from objects.Battle import Battle
 from objects.Character import Character
 from objects.Alignment import Alignment
+=======
+from objects.Battle import Battle
+from objects.Character import Character
+>>>>>>> 5ffa0be (add battle start messages)
 
 entities: list = []
 
@@ -14,6 +19,7 @@ def main():
     # #TODO test that eplicit alignment works
 
     # #TODO create an enemy
+<<<<<<< HEAD
     enemy = Character('Demon', 20, 5, alignment=2)
     entities.append(enemy)
 
@@ -35,4 +41,14 @@ def main():
 
 if __name__ == '__main__':
 >>>>>>> 91fc40b (arena: create main.py and Arena class)
+=======
+    enemy = Character()
+    entities.append(enemy)
+
+    #TODO start a battle with character vs. enemy
+    battle = Battle(entities)
+
+
+if __name__ == '__main__':
+>>>>>>> 5ffa0be (add battle start messages)
     main()
