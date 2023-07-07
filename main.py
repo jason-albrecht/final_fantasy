@@ -1,9 +1,6 @@
 from objects.Battle import Battle
 from objects.Character import Character
 from objects.Alignment import Alignment
-from objects.Battle import Battle
-from objects.Character import Character
-from objects.Alignment import Alignment
 
 entities: list = []
 
@@ -15,7 +12,7 @@ def main():
     # #TODO test that eplicit alignment works
 
     # #TODO create an enemy
-    enemy = Character()
+    enemy = Character('Demon', 20, 5, alignment=2)
     entities.append(enemy)
 
     #TODO start a battle with character vs. enemy

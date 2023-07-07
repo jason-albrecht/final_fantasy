@@ -11,9 +11,9 @@ class Battle():
     _obj_type: str = field(default = 'battle', repr=False)
     _start_message: str = field(default='Battle started!', repr=False)
 
-    def __post_init__(self, entities) -> None:
+    def __init__(self, entities) -> None:
         print(Battle._start_message)
-        print(f"{entities[0]} vs. {entities[1]}")
+        print(f"{entities[0].name} vs. {entities[1].name}")
     # print(_start_message)
 
 # entities: list = [1, 2]
